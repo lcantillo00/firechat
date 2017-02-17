@@ -1,0 +1,24 @@
+{
+  "name": "myFirstGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify main.js -o prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcantillo00/myFirstGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcantillo00/myFirstGame/issues"
+  },
+  "homepage": "https://github.com/lcantillo00/myFirstGame#readme",
+  "devDependencies": {
+    "watchify": "^3.9.0"
+  }
+}

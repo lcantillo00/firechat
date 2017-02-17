@@ -1,0 +1,4 @@
+.img{
+    shape-inside: circle();
+    max-width: 90px;
+}

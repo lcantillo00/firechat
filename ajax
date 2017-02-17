@@ -1,0 +1,15 @@
+$.ajax ({
+url: 'http://fvi-grad.com:4004/email',
+method: 'POST',
+data:{
+full_name:'testy testy',
+message: html,
+subject:'test email using lily works',
+dest_email:'lcantillo@fvi.edu'
+
+},
+success: function (res){
+console.log(res);
+}
+
+});
